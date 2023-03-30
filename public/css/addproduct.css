@@ -15,10 +15,16 @@
     width: 100%;
 }
 
-.form-control input {
+.form-control input,
+.form-control textarea {
     border: 1px solid #dbc441;
     font: inherit;
     border-radius: 2px;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+    outline-color: #dbc441;
 }
 
 button {
